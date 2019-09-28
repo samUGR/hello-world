@@ -49,6 +49,13 @@ a {
     background: darken(#03A9F4, 2%);
 }
 
+.hero.is-shcedule, .button.is-schedule {
+    background: #ff9000;
+}
+.button.is-schedule:hover {
+    background: darken(#ff9000, 2%);
+}
+
 .links {
     background: url("../img/background.jpg");
     background-size: cover;
