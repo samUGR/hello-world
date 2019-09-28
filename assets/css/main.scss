@@ -56,6 +56,11 @@ a {
     background: darken(#ff9000, 2%);
 }
 
+.hero-body {
+    padding: 6rem 1.5rem;
+    //padding: 6rem 1.5rem 3rem 1.5rem;
+}
+
 .links {
     background: url("../img/background.jpg");
     background-size: cover;
