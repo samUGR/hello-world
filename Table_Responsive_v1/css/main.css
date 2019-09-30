@@ -1,12 +1,4 @@
 
-
-
-@font-face {
-  font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
-}
-
-
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -15,7 +7,6 @@
 
 body, html {
 	height: 100%;
-	font-family: sans-serif;
 }
 
 /* ------------------------------------ */
@@ -85,7 +76,7 @@ iframe {
   margin: 0 auto;
 }
 
-.container-table100 {
+.container-table {
   width: 100%;
   min-height: 100vh;
   background: #c850c0;
@@ -105,9 +96,6 @@ iframe {
   padding: 33px 30px;
 }
 
-.wrap-table100 {
-  width: 1170px;
-}
 
 table {
   border-spacing: 1;
@@ -115,7 +103,7 @@ table {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 100%;
+  width: 1170px;
   margin: 0 auto;
   position: relative;
 }
@@ -149,7 +137,7 @@ table td.r, table th.r {
 }
 
 
-.table100-head th{
+.table-head th{
   font-family: OpenSans-Regular;
   font-size: 18px;
   color: #fff;
@@ -277,7 +265,7 @@ tbody tr:hover {
 }
 
 @media (max-width: 576px) {
-  .container-table100 {
+  .container-table {
     padding-left: 15px;
     padding-right: 15px;
   }
