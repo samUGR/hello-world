@@ -1,4 +1,4 @@
-
+/*
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -9,7 +9,6 @@ body, html {
 	height: 100%;
 }
 
-/* ------------------------------------ */
 a {
 	margin: 0px;
 	transition: all 0.4s;
@@ -26,7 +25,6 @@ a:hover {
 	text-decoration: none;
 }
 
-/* ------------------------------------ */
 h1,h2,h3,h4,h5,h6 {margin: 0px;}
 
 p {margin: 0px;}
@@ -37,7 +35,6 @@ ul, li {
 }
 
 
-/* ------------------------------------ */
 input {
   display: block;
 	outline: none;
@@ -53,7 +50,6 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-/* ------------------------------------ */
 button {
 	outline: none !important;
 	border: none;
@@ -67,14 +63,12 @@ button:hover {
 iframe {
 	border: none !important;
 }
+*/
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 
-.limiter {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .container-table {
   width: 100%;
@@ -103,7 +97,7 @@ table {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 1170px;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -123,22 +117,9 @@ table tbody tr {
 table tbody tr:last-child {
   border: 0;
 }
-table td, table th {
-  text-align: left;
-}
-table td.l, table th.l {
-  text-align: right;
-}
-table td.c, table th.c {
-  text-align: center;
-}
-table td.r, table th.r {
-  text-align: center;
-}
 
 
 .table-head th{
-  font-family: OpenSans-Regular;
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
