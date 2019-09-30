@@ -1,4 +1,4 @@
-
+/*
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -8,7 +8,7 @@
 body, html {
 	height: 100%;
 }
-/*
+
 a {
 	margin: 0px;
 	transition: all 0.4s;
@@ -71,22 +71,8 @@ iframe {
 
 
 .container-table {
-  width: 100%;
-  min-height: 100vh;
-  background: #c850c0;
-  background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
-  background: -o-linear-gradient(45deg, #4158d0, #c850c0);
-  background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
-  background: linear-gradient(45deg, #4158d0, #c850c0);
+  width: 90%;
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   padding: 33px 30px;
 }
 
