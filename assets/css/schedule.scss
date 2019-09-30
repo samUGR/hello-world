@@ -35,18 +35,9 @@ tbody tr {
   font-weight: unset;
 }
 
-table thead tr, table tbody tr .column1 {
+.column1 {
   background: #36304a;
   text-align: center;
   font-weight: bold;
   color: #fff;
-}
-
-.column1,
-.column2,
-.column3,
-.column4,
-.column5,
-.column6 {
-  width: 15%;
 }
