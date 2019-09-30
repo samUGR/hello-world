@@ -13,35 +13,15 @@ table {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 90%;
+  width: 60%;
+  float: left;
   margin: 0 auto;
-  position: relative;
 }
-/*
-table * {
-  position: relative;
-}
-table td, table th {
-  padding-left: 8px;
-}
-table thead tr {
-  height: 60px;
-  background: #36304a;
-}
-table tbody tr {
-  height: 50px;
-}
-table tbody tr:last-child {
-  border: 0;
-}
-*/
-
 
 .table-head th{
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
-  font-weight: unset;
 }
 
 tbody tr:nth-child(even) {
@@ -53,6 +33,13 @@ tbody tr {
   color: #808080;
   line-height: 1.2;
   font-weight: unset;
+}
+
+table thead tr, table tbody tr .column1 {
+  background: #36304a;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
 }
 
 .column1,
